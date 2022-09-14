@@ -1,0 +1,304 @@
+<!--
+
+INFO 340
+
+AUTHORS:    Hojun Kim (hojunkim@uw.edu)
+            Nikolai Frank Nilsen (ez43tl99@uw.edu)
+
+VERSION:    STAGE 2
+
+Contains HTML content for SheepBoy, a web app that allows users to
+search for information about Indie games. Features a reactive,
+easy-to-use search interface and wiki-based articles for
+describing games.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author-1" content="Nikolai F Nilsen">
+    <meta name="author-2" content="Hojun Kim">
+    <meta name="description" content="a wiki-based indie game information archive">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="favicon" content="sheepboy-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="icon" href="img/site/original/sheepboy.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed&#38;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P&#38;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&#38;display=swap">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>SheepBoy - A Wiki-based Indie Game Information Archive</title>
+</head>
+
+<body>
+    <!-- Navigation Bar Section -->
+    <header>
+        <nav class="navbar">
+            <div class="navbar-container">
+                <div class="menu-container" role="button">
+                    <div class="icon-container">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="site-title-container">
+                    <img class="site-icon" src="img/site/original/sheepboy.png" alt="sheepboy-icon"/>
+                    <h1>SheepBoy</h1>
+                </div>
+                <div class="user-container" role="button">
+                    <div class="icon-container">
+                        <i class="fa fa-user-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Search Bar, Filter Container, and Tag Container Sections -->
+    <nav class="search-container">
+        <div class="search-bar" role="search bar">
+            <input class="search-input" type="text" role="search box" aria-label="search input box" placeholder="Search by Title of Developer">
+            <button class="search-button" aria-label="search button"><i aria-label="search" class="fa fa-search fa-flip-horizontal" aria-hidden="true"></i></button>
+        </div>
+    </nav>
+    <nav class="filter-container">
+        <div class="dropdown" role="dropdown menu" aria-label="activate dropdown" tabindex="0">
+            <div class="drop-container"><p>Tags<i aria-label="down" class="fa fa-angle-down" aria-hidden="true"></i></p></div>
+            <div class="tag-dropdown dropdown-content" role="clickable list" aria-label="list of tags" tabindex="0">
+                <!-- Tag options populate here -->
+            </div>
+        </div>
+        <div class="dropdown" role="dropdown menu" aria-label="activate dropdown" tabindex="0">
+            <div class="drop-container"><p>Sort By<i aria-label="down" class="fa fa-angle-down" aria-hidden="true"></i></p></div>
+            <div class="sort-dropdown dropdown-content" role="clickable list" aria-label="sort list" tabindex="0">
+                <div class="option" role="clickable option" aria-label="sort by newest" tabindex="0">Newest</div>
+                <div class="option" role="clickable option" aria-label="sort by most viewed" tabindex="0">Most Viewed</div>     
+                <div class="option" role="clickable option" aria-label="sort by oldest" tabindex="0">Oldest</div>
+                <div class="option" role="clickable option" aria-label="sort by least viewed" tabindex="0">Least Viewed</div>
+            </div>
+        </div>
+        <div class="dropdown" role="dropdown menu" aria-label="activate dropdown" tabindex="0">
+            <div class="drop-container"><p>Publisher<i aria-label="down" class="fa fa-angle-down" aria-hidden="true"></i></p></div>
+            <div class="pub-dropdown dropdown-content" role="clickable list" aria-label="list of publishers" tabindex="0">
+                <!-- Publisher Options populate here -->
+            </div>
+        </div>
+        <div class="dropdown" role="dropdown menu" aria-label="activate dropdown" tabindex="0">
+            <div class="drop-container"><p>Platform<i aria-label="down" class="fa fa-angle-down" aria-hidden="true"></i></p></div>
+            <div class="platform-dropdown dropdown-content" role="clickable list" aria-label="list of platforms" tabindex="0">
+                <div class="option" role="list option" aria-label="ios" tabindex="0">iOS</div>
+                <div class="option" role="list option" aria-label="android" tabindex="0">Android</div>
+                <div class="option" role="list option" aria-label="nintendo" tabindex="0">Nintendo</div>
+                <div class="option" role="list option" aria-label="playstation" tabindex="0">PlayStation</div>
+                <div class="option" role="list option" aria-label="xbox" tabindex="0">Xbox</div>
+                <div class="option" role="list option" aria-label="windows" tabindex="0">Windows</div>
+                <div class="option" role="list option" aria-label="mac" tabindex="0">Mac</div>
+                <div class="option" role="list option" aria-label="linux" tabindex="0">Linux</div>
+            </div>
+        </div>
+    </nav>
+    <!-- Can remove applied filters by hovering over the terms and clicking within the span its in -->
+    <nav class="applied-container">
+        <h2>
+            <span class="applied-label prefix"><p>Searching:</p></span>
+            <span role="button" tabindex="0" class="applied-label sort"><p>Newest</p><button class="delete-button hidden"><i aria-label="times" class="fa fa-times-circle" aria-hidden="true"></i></button></span>
+            <span class="applied-label game">Games</span>
+            <span role="button" tabindex="0" class="applied-label publisher hidden"><p></p><button class="delete-button hidden"><i aria-label="times" class="fa fa-times-circle" aria-hidden="true"></i></button></span>
+            <span role="button" tabindex="0" class="applied-label platform hidden"><p></p><button class="delete-button hidden"><i aria-label="times" class="fa fa-times-circle" aria-hidden="true"></i></button></span>
+            <span role="button" tabindex="0" class="applied-label search hidden"><p></p><button class="delete-button hidden"><i aria-label="times" class="fa fa-times-circle" aria-hidden="true"></i></button></span>
+        </h2>
+    </nav>
+    <nav class="tag-container">
+        <p>Tags:</p>
+        <!-- Tags populate this area when user adds them -->     
+    </nav>
+
+    <!-- Content Page Navigation -->
+    <nav class="page-nav hidden">
+        <div class="page-button back-button" role="button" aria-label="back button" tabindex="0">
+            <div class="back-icon-container">
+                <i class="fa fa-chevron-left" aria-hidden="true"></i>
+            </div>
+        </div>
+        <div class="page-button read-button" role="button" aria-label="read button" tabindex="0"><p>Read</p></div>
+        <div class="page-button edit-button" role="button" aria-label="edit button" tabindex="0"><p>Edit</p></div>
+        <div class="page-button log-button" role="button" aria-label="log button" tabindex="0"><p>Log</p></div>
+    </nav>
+
+    <!-- Result Section -->
+    <main>
+        <section class="result">
+            <!-- Games populate this area based on search inputs -->
+        </section>
+
+        <section class="content-page hidden">
+            <div class="content-container">
+                <section class="summary">
+                    <h2 class="game-title content">
+                        <!--Change textContent from JSON-->
+                    </h2>
+                    <div class="summary-box">
+                        <div class="cover-container content">
+                            <!--Insert <img> from JSON-->
+                        </div>
+                        <table class="attribute-container">
+                            <tbody class="attribute-table">
+                                <tr class="web-row">
+                                    <th>Official Website:</th>
+                                    <td class="content">
+                                        <!-- Insert <a> with textContent from JSON -->
+                                    </td>
+                                </tr>
+                                <tr class="dev-row">
+                                    <th>Developer(s):</th>
+                                    <td class="content content-list">
+                                    <!--For each developer, insert <div> with <a> tag within from JSON
+                                        with appropriate textContent that links to dev social media-->
+                                    </td>
+                                </tr>
+                                <tr class="pub-row">
+                                    <th>Publisher:</th>
+                                    <td class="content">
+                                        <!-- Insert <a> with textContent from JSON -->
+                                    </td>                                   
+                                </tr>
+                                <tr class="plat-row">
+                                    <th>Platform(s):</th>
+                                    <td class="content content-platforms">
+                                        <!--Insert <img> tags from JSON-->
+                                    </td>
+                                </tr>
+                                <tr class="rel-row">
+                                    <th>Release Date:</th>
+                                    <td class="content content-list">
+                                        <!--Add <span> tags from JSON for each release date per platform.-->
+                                    </td>                                   
+                                </tr>
+                                <tr class="avail-row">
+                                    <th>Available On:</th>
+                                    <td class="content content-list">
+                                        <!--Add <a> tags from JSON for each client that sells the game-->
+                                    </td>
+                                </tr>
+                                <tr class="tag-row">
+                                    <th>Tags:</th>
+                                    <td class="content content-tags">
+                                       <!-- Add <span> with tags from JSON-->
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- Add <p> tags of class "summmary-text" for each one in JSON-->
+                </section>
+                <section class="content-tabs">
+                    <div class="content-sub-container" role="button" tabindex="0">
+                        <div class="content-sub">
+                            <div class="content-icon-container">
+                                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                            </div>
+                            <h3 class="content-sub-title">Gameplay</h3>
+                        </div>
+
+                        <section class="gameplay-sub content-sub-section content hidden">
+                            <!--For each subsection, add content from JSON-->
+                        </section>
+                    </div>
+                    <div class="content-sub-container" role="button" tabindex="0">
+                        <div class="content-sub">
+                            <div class="content-icon-container">
+                                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                            </div>
+                            <h3 class="content-sub-title">Plot</h3>
+                        </div>
+
+                        <section class="plot-sub content-sub-section content hidden">
+                            <!--For each subsection, add content from JSON-->
+                        </section>
+                    </div>
+                    <div class="content-sub-container" role="button" tabindex="0">
+                        <div class="content-sub">
+                            <div class="content-icon-container">
+                                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                            </div>
+                            <h3 class="content-sub-title">Developement</h3>
+                        </div>
+
+                        <section class="developement-sub content-sub-section content hidden">
+                            <!--For each subsection, add content from JSON-->
+                        </section>
+                    </div>
+                    <div class="content-sub-container" role="button" tabindex="0">
+                        <div class="content-sub">
+                            <div class="content-icon-container">
+                                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                            </div>
+                            <h3 class="content-sub-title">External Links</h3>
+                        </div>
+
+                        <section class="external-sub content-sub-section content hidden">
+                            <!--For each subsection, add content from JSON-->
+                        </section>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </main>
+    <!-- Footer and GameBoy Input Sections -->
+    <footer>
+        <section class="attributions">
+            <div class="attributions-container">
+                <h4 class="attributions-title">Icons From:</h4>
+                <ul class="attributions-list">
+                    <li><a class="attributions-link" role="link" aria-label="fontawesome link" rel="noopener" href="https://fontawesome.com/v4.7.0/" target="_blank">FontAwesome 4</a></li>
+                    <li><a class="attributions-link" role="link" aria-label="icon library link" rel="noopener" href="https://icon-library.net" target="_blank">icon-library.net</a></li>
+                    <li><a class="attributions-link" role="link" aria-label="flaticon link" rel="noopener" href="https://www.flaticon.com" target="_blank">flaticon.com</a></li>
+                    <li><a class="attributions-link" role="link" aria-label="shareicon link" rel="noopener" href="https://www.shareicon.net" target="_blank">shareicon.net</a></li>
+                </ul>
+            </div>
+            <div class="attributions-container">
+                <h4 class="attributions-title">Contact Us!</h4>
+                <ul class="attributions-list">
+                    <li>Frank: ez43tl99@uw.edu</li>
+                    <li>Hojun: hojunkim@uw.edu</li>
+                </ul>
+            </div>
+        </section>
+    </footer>
+    <section class="gameboy-inputs">
+        <div class="site-imprint-container">
+            <h4 class="site-imprint">SheepBoy</h4>
+            <p class="copyright-symbol">&copy;</p>
+        </div>
+        <div class="gameboy-button-container">
+            <div class="dpad-container"></div>
+            <div class="b-a-container">
+                <div class="b-container"></div>
+                <div class="a-container"></div>
+            </div>
+        </div>
+        <div class="gameboy-menu-container">
+            <div class="select-container"></div>
+            <div class="start-container"></div>
+        </div>
+    </section>
+    <div class="error-alert hidden" role="alert" aria-label="error alert">
+        <p>Uh oh! Something went wrong while loading this page!</p>
+        <i role="button" aria-label="times" class="fa fa-times-circle"></i>
+    </div>
+    <!-- Include jQuery and JavaScript files -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/index.js"></script>
+
+    <!-- Include json files when using live server -->
+    <script src="json/games.json"></script>
+    <script src="json/pages.json"></script>
+</body>
+
+</html>

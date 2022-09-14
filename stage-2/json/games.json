@@ -1,0 +1,244 @@
+{
+	"games": [
+		{
+			"title": "Gato Roboto",
+			"views": 3007,
+			"created": "2019-10-22T15:11:40",
+			"cover": "https://steamcdn-a.akamaihd.net/steam/apps/916730/header.jpg",
+			"publisher": "Devolver Digital",
+			"developers": ["doinksoft"],
+			"platforms": ["nintendo", "windows"],
+			"tags": ["Action", "Adventure", "Platformer", "Metroidvania", "Retro", "Cute"]
+		},
+		{
+			"title": "Undertale",
+			"views": 29179,
+			"created": "2019-10-20T19:03:01",
+			"cover": "https://steamcdn-a.akamaihd.net/steam/apps/391540/header.jpg",
+			"publisher": "Toby Fox",
+			"developers": ["Toby Fox"],
+			"platforms": ["nintendo", "playstation", "windows", "mac", "linux"],
+			"tags": ["Adventure", "RPG", "Comedy", "Turn-Based", "Bullet Hell"]
+		},
+		{
+			"title": "Lisa:The Painful",
+			"views": 849,
+			"created": "2019-10-21T03:56:49",
+			"cover": "https://steamcdn-a.akamaihd.net/steam/apps/335670/header.jpg",
+			"publisher": "Dingaling",
+			"developers": ["Dingaling Productions, LLC"],
+			"platforms": ["windows", "mac", "linux"],
+			"tags": ["Adventure", "RPG", "Comedy", "Turn-Based", "Dark", "Psychological Horror"]
+		},
+		{
+			"title": "The Messenger",
+			"views": 2469,
+			"created": "2019-09-17T10:09:01",
+			"cover": "https://steamcdn-a.akamaihd.net/steam/apps/764790/header.jpg",
+			"publisher": "Devolver Digital",
+			"developers": ["Sabotage Studio"],
+			"platforms": ["nintendo", "playstation", "windows"],
+			"tags": ["Action", "Adventure", "Platformer", "Metroidvania", "Retro", "Ninja", "Side Scroller"]
+		},
+		{
+			"title": "Heartbeat",
+			"views": 804,
+			"created": "2019-11-02T22:45:20",
+			"cover": "https://steamcdn-a.akamaihd.net/steam/apps/984560/header.jpg",
+			"publisher": "CHUMBOSOFT LLC",
+			"developers": ["CHUMBOSOFT LLC"],
+			"platforms": ["windows", "mac", "linux"],
+			"tags": ["Adventure", "RPG", "Turn-Based", "JRPG", "Cute"]
+		},
+		{
+			"title": "Death Road to Canada",
+			"views": 7410,
+			"created": "2019-09-02T21:00:10",
+			"cover": "https://steamcdn-a.akamaihd.net/steam/apps/252610/header.jpg",
+			"publisher": "Rocketcat Games",
+			"developers": ["Rocketcat Games", "Madgarden"],
+			"platforms": ["ios", "windows", "mac", "linux"],
+			"tags": ["Action", "Survival", "Zombies", "Rogue-like", "Comedy"]
+		},
+		{
+			"title": "Yume Nikki",
+			"views": 12044,
+			"created": "2018-08-29T09:12:14",
+			"cover": "https://steamcdn-a.akamaihd.net/steam/apps/650700/header.jpg",
+			"publisher": "PLAYISM",
+			"developers": ["kikiyama"],
+			"platforms": ["windows"],
+			"tags": ["Adventure", "RPG", "Dark", "Surreal", "Psychological Horror", "Atmospheric", "Walking Simulator"]
+		},
+		{
+			"title": "Don't Escape: 4 Days to Survive",
+			"views": 764,
+			"created": "2019-11-01T12:14:18",
+			"cover": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/611760/18f2cff6b231aac8da30c5db1ee0cf321fbefcbf.jpg",
+			"publisher": "Armor Games Studio",
+			"developers": ["scriptwelder"],
+			"platforms": ["windows", "mac"],
+			"tags": ["Adventure", "Point and Click", "Post-apocalyptic", "Sci-fi", "Atmospheric", "Survival"]
+		},
+		{
+			"title": "Owlboy",
+			"views": 9842,
+			"created": "2019-08-29T09:12:14",
+			"cover": "https://cdn1.thr.com/sites/default/files/imagecache/768x433/2018/02/posterowlbo-h_2018y.jpg",
+			"publisher": "D-Pad Studio",
+			"developers": ["D-Pad Studio"],
+			"platforms": ["nintendo", "playstation", "xbox", "windows", "mac", "linux"],
+			"tags": ["Adventure", "Action", "Metroidvania", "Fantasy", "Puzzle-Platformer", "Atmospheric"]
+		},
+		{
+			"title": "Katana Zero",
+			"views": 3204,
+			"created": "2019-10-24T15:18:38",
+			"cover": "https://steamcdn-a.akamaihd.net/steam/apps/460950/header.jpg",
+			"publisher": "Devolver Digital",
+			"developers": ["Askiisoft"],
+			"platforms": ["nintendo", "windows", "mac"],
+			"tags": ["Action", "Cyberpunk", "Hack and Slash", "Sci-fi", "Difficult"]
+		},
+		{
+			"title": "West of Loathing",
+			"views": 649,
+			"created": "2019-09-18T20:49:00",
+			"cover": "https://steamcdn-a.akamaihd.net/steam/apps/597220/header.jpg",
+			"publisher": "Asymmetric",
+			"developers": ["Asymmetric"],
+			"platforms": ["nintendo", "windows", "mac", "linux"],
+			"tags": ["Adventure", "Comedy", "RPG", "Turn-Based", "Western"]
+		},
+		{
+			"title": "Lone Survivor: The Director's Cut",
+			"views": 1201,
+			"created": "2019-08-11T04:02:56",
+			"cover": "https://steamcdn-a.akamaihd.net/steam/apps/209830/header.jpg",
+			"publisher": "Superflat Games",
+			"developers": ["Jasper Bryne"],
+			"platforms": ["playstation", "windows", "mac", "linux"],
+			"tags": ["Adventure", "Horror", "Survival", "RPG", "Atmospheric", "Dark", "Psychological Horror"]
+		},
+		{
+			"title": "Oneshot",
+			"views": 4259,
+			"created": "2019-08-19T22:09:02",
+			"cover": "https://steamcdn-a.akamaihd.net/steam/apps/420530/header.jpg",
+			"publisher": "Degica",
+			"developers": ["Little Cat Feet"],
+			"platforms": ["windows", "mac", "linux"],
+			"tags": ["Adventure", "Puzzle", "Atmospheric", "Cute", "RPG"]
+		},
+		{
+			"title": "Receiver",
+			"views": 1240,
+			"created": "2019-10-04T11:12:13",
+			"cover": "https://steamcdn-a.akamaihd.net/steam/apps/234190/header.jpg",
+			"publisher": "Wolfire Games",
+			"developers": ["Wolfire Games"],
+			"platforms": ["windows", "mac", "linux"],
+			"tags": ["FPS", "Simulation", "Rogue-like", "Action", "Difficult", "Sci-fi"]
+		},
+		{
+			"title": "Baba Is You",
+			"views": 4028,
+			"created": "2019-10-11T23:09:32",
+			"cover": "https://steamcdn-a.akamaihd.net/steam/apps/736260/header.jpg",
+			"publisher": "Hempuli Oy",
+			"developers": ["Hempuli Oy"],
+			"platforms": ["nintendo", "windows", "mac", "linux"],
+			"tags": ["Puzzle", "Cute", "Difficult"]
+		},
+		{
+			"title": "Hyper Light Drifter",
+			"views": 5298,
+			"created": "2019-09-20T18:22:09",
+			"cover": "https://steamcdn-a.akamaihd.net/steam/apps/257850/capsule_616x353.jpg",
+			"publisher": "Heart Machine",
+			"developers": ["Heart Machine"],
+			"platforms": ["nintendo", "playstation", "xbox", "ios", "windows", "mac", "linux"],
+			"tags": ["Action", "Hack and Slash", "Atmospheric", "Adventure", "Difficult", "Post-apocalyptic", "Sci-fi"]
+		},
+		{
+			"title": "Shovel Knight",
+			"views": 8008,
+			"created": "2019-08-02T11:29:31",
+			"cover": "https://www.dualshockers.com/wp-content/uploads/2015/05/shovel-knight.jpg",
+			"publisher": "Yatch Club Games",
+			"developers": ["Yatch Club Games"],
+			"platforms": ["nintendo", "playstation", "xbox", "ios", "windows", "mac", "linux"],
+			"tags": ["Action", "Adventure", "Platformer", "Retro", "Side Scroller", "Fantasy"]
+		},
+		{
+			"title": "The Binding of Isaac",
+			"views": 7406,
+			"created": "2019-08-29T09:12:14",
+			"cover": "https://steamcdn-a.akamaihd.net/steam/apps/113200/header.jpg",
+			"publisher": "Edmund McMillen",
+			"developers": ["Edmund McMillen", "Florian Himsl"],
+			"platforms": ["windows", "mac", "linux"],
+			"tags": ["Action", "Rogue-like", "Difficult", "Dark", "Dungeon Crawler", "Bullet Hell"]
+		},
+		{
+			"title": "VA-11 HALL-A: Cyberpunk Bartender Action",
+			"views": 2548,
+			"created": "2019-10-12T12:21:01",
+			"cover": "https://steamcdn-a.akamaihd.net/steam/apps/447530/header.jpg",
+			"publisher": "Ysbryd Games",
+			"developers": ["Sukeban Games"],
+			"platforms": ["windows", "mac", "linux"],
+			"tags": ["Cyberpunk", "Visual Novel", "Sci-fi", "Cute", "Atmospheric", "Simulation"]
+		},
+		{
+			"title": "Anodyne",
+			"views": 848,
+			"created": "2019-09-18T08:42:55",
+			"cover": "https://steamcdn-a.akamaihd.net/steam/apps/234900/capsule_616x353.jpg",
+			"publisher": "Analgesic Productions",
+			"developers": ["Sean Han Tani", "Marina Kittaka"],
+			"platforms": ["nintendo", "playstation", "xbox", "ios", "android", "windows", "mac", "linux"],
+			"tags": ["Adventure", "Action", "Surreal", "Retro", "RPG", "Fantasy", "Dark", "Puzzle"]
+		},
+		{
+			"title": "Mark of the Ninja",
+			"views": 3202,
+			"created": "2019-09-11T14:56:59",
+			"cover": "https://steamcdn-a.akamaihd.net/steam/apps/214560/header.jpg",
+			"publisher": "Microsoft Studios",
+			"developers": ["Klei Entertainment"],
+			"platforms": ["xbox", "windows", "mac", "linux"],
+			"tags": ["Action", "Stealth", "Platformer", "Ninja", "Side Scroller", "Dark"]
+		},
+		{
+			"title": "Hollow Knight",
+			"views": 5669,
+			"created": "2019-10-02T02:04:39",
+			"cover": "https://steamcdn-a.akamaihd.net/steam/apps/367520/header.jpg",
+			"publisher": "Team Cherry",
+			"developers": ["Team Cherry"],
+			"platforms": ["nintendo", "playstation", "xbox", "windows", "mac", "linux"],
+			"tags": ["Action", "Metroidvania", "Fantasy", "Atmospheric", "Difficult", "Platformer"]
+		},
+		{
+			"title": "Darkest Dungeon",
+			"views": 2989,
+			"created": "2019-09-23T19:28:18",
+			"cover": "https://steamcdn-a.akamaihd.net/steam/apps/262060/header.jpg",
+			"publisher": "Red Hook Studios",
+			"developers": ["Red Hook Studios"],
+			"platforms": ["nintendo", "playstation", "xbox", "ios", "windows", "mac", "linux"],
+			"tags": ["Turn-Based", "Dark", "Rogue-like", "Lovecraftian", "Atmospheric", "Difficult"]
+		},
+		{
+			"title": "Papers, Please",
+			"views": 1298,
+			"created": "2019-09-13T18:14:10",
+			"cover": "https://steamcdn-a.akamaihd.net/steam/apps/239030/header.jpg",
+			"publisher": "3909",
+			"developers": ["Lucas Pope"],
+			"platforms": ["playstation", "ios", "windows", "mac", "linux"],
+			"tags": ["Puzzle", "Point and Click", "Atmospheric", "Simulation"]
+		}
+	]
+}

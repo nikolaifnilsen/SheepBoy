@@ -1,0 +1,111 @@
+{
+	"pages": [{
+		"title": "Gato Roboto",
+		"box": {
+			"cover": {
+				"link": "https://i.ytimg.com/vi/akZHaKCO7_8/maxresdefault.jpg",
+				"alt": "gato-roboto-cover-art"
+			},
+
+			"website": {
+				"link": "https://www.gatoroboto.com/",
+				"alt": "gatoroboto.com"
+			},
+
+			"developers": [{
+				"link": "https://twitter.com/doinksoft?lang=en",
+				"alt": "doinksoft"
+			}],
+
+			"publisher": {
+				"link": "https://www.devolverdigital.com/",
+				"alt": "Devolver Digital"
+			},
+
+			"platforms": ["nintendo", "windows"],
+
+			"releases": [
+				{
+					"client": "Nintendo Switch",
+					"date": "May 30, 2019"
+				},
+				{
+					"client": "Steam",
+					"date": "May 30, 2019"
+				}
+			],
+
+			"available": [
+				{
+					"link": "https://www.nintendo.com/games/detail/gato-roboto-switch/",
+					"alt": "Nintendo Switch"
+				},
+				{
+					"link": "https://store.steampowered.com/app/916730/Gato_Roboto/",
+					"alt": "Steam"
+				}
+			],
+
+			"tags": ["Action", "Adventure", "Platformer", "Metroidvania", "Retro"]
+
+		},
+
+		"summary": [
+			"sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text",
+			"sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text",
+			"sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text"
+		],
+
+		"subs": {
+			"gameplay": {
+				"screenshot": {
+					"link": "https://assets.rockpapershotgun.com/images/2019/06/gato-roboto-1-1212x682.jpg/RPSS/resize/760x-1/format/jpg/quality/90",
+					"alt": "gato-roboto-gameplay",
+					"caption": "sample text sample text sample text sample text sample text sample text sample text sample text sample text"
+				},
+				"subtext": [
+					"sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text",
+					"sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text",
+					"sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text"
+				]
+			},
+			"plot": {
+				"screenshot": {
+					"link": "https://i1.wp.com/vgalmanac.com/wp-content/uploads/2019/06/Gato_GCS_003.jpg?ssl=1",
+					"alt": "gato-roboto-talking-to-a-cat",
+					"caption": "sample text sample text sample text sample text sample text sample text sample text sample text sample text"
+				},
+				"subtext": [
+					"sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text",
+					"sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text",
+					"sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text"
+				]
+			},
+			"developement": {
+				"subtext": [
+					"sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text",
+					"sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text",
+					"sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text"
+				]
+			},
+			"external": {
+				"links": [
+					{
+						"link": "https://www.youtube.com/watch?v=mhTGdWIAvWY",
+						"alt": "Official Trailer for Gato Roboto on Youtube."
+					},
+
+					{
+						"link": "https://www.youtube.com/watch?v=LWCb3McRLlk",
+						"alt": "Youtube video critiquing Gato Roboto's graphics and animation."
+					},
+
+					{
+						"link": "https://www.rockpapershotgun.com/2019/05/30/gato-roboto-combines-two-great-ideas-metroid-and-cats/",
+						"alt": "Rock-Paper-Shotgun's review of Gato Roboto."
+					}
+				]
+			}
+		}
+	}]
+}

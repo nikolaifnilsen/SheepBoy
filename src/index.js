@@ -4,9 +4,10 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-import firebase from 'firebase/app';
-import 'firebase/auth';
-import 'firebase/database';
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+
+
 
 const firebaseConfig = {
   apiKey: "AIzaSyDeLGsNSK68Z4kdpFCcuqMQ7r0Of1vE65k",
@@ -20,7 +21,8 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-firebase.initializeApp(firebaseConfig);
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
 
 ReactDOM.render(<App search="" tags={[]} sort="Newest" publisher="" platform=""/>, document.getElementById('root'));
 // If you want your app to work offline and load faster, you can change
